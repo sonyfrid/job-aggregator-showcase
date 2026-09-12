@@ -24,13 +24,15 @@
 
 ---
 ```mermaid
-flowchart TD
+flowchart LR
     subgraph INPUT["📥 Сбор"]
+        direction TB
         TG[Telegram-каналы]
         JB[Job-борды]
     end
     
     subgraph PROCESS["⚙️ Обработка"]
+        direction TB
         P1[Парсер]
         P2[Фильтр]
         P3[Дедупликация]
@@ -46,10 +48,9 @@ flowchart TD
     
     TG --> P1
     JB --> P1
-    P1 --> P2
-    P2 --> P3
-    P3 --> DB
-    DB --> CH
+    P1 --> P2 --> P3
+    P3 --> DB --> CH
+```
 ```
 
 ## 📸 Демонстрация
