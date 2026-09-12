@@ -23,44 +23,34 @@
 - 🧠 Лимиты и паузы
 
 ---
-## 📁 Структура проекта
-
 ```mermaid
 flowchart TD
-    A[job-aggregator] --> B[src/]
-    A --> C[tests/]
-    A --> D[screenshots/]
-    A --> E[README.md]
-    A --> F[LICENSE]
+    subgraph INPUT["📥 Сбор"]
+        TG[Telegram-каналы]
+        JB[Job-борды]
+    end
     
-    B --> B1[core/]
-    B --> B2[filters/]
-    B --> B3[storage/]
-    B --> B4[handlers/]
+    subgraph PROCESS["⚙️ Обработка"]
+        P1[Парсер]
+        P2[Фильтр]
+        P3[Дедупликация]
+    end
     
-    B1 --> B11[config.py]
-    B1 --> B12[client.py]
+    subgraph DATA["💾 Данные"]
+        DB[(SQLite)]
+    end
     
-    B2 --> B21[keyword_filter.py]
-    B2 --> B22[date_filter.py]
+    subgraph OUTPUT["📤 Результат"]
+        CH[Telegram-канал]
+    end
     
-    B3 --> B31[database.py]
-    B3 --> B32[models.py]
-    
-    B4 --> B41[message_handler.py]
-    B4 --> B42[hh_parser.py]
-    
-    C --> C1[test_filters.py]
-    C --> C2[test_database.py]
-    C --> C3[test_api.py]
+    TG --> P1
+    JB --> P1
+    P1 --> P2
+    P2 --> P3
+    P3 --> DB
+    DB --> CH
 ```
-## 🏗️ Архитектура
-
-```
-Сбор → Фильтрация → БД → Telegram
-```
-
----
 
 ## 📸 Демонстрация
 
