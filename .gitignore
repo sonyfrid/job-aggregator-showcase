@@ -1,0 +1,6 @@
+﻿.env
+session.session
+vacancies.db
+*.log
+__pycache__/
+screenshots/*.tmp
