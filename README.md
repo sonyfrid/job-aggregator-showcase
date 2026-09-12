@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="screenshots/botvacancy.png" width="150" alt="Logo">
+
 # 🤖 IT Job Aggregator Bot
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&color=45BA4B&center=true&vCenter=true&lines=Автоматический+сбор+вакансий;Умная+фильтрация;Работает+24%2F7">
@@ -29,7 +31,7 @@
 
 ---
 
-## 🎯Специфика 
+## 🎯 Специфика
 
 <details>
 <summary>🔍 Нажми, чтобы раскрыть</summary>
@@ -139,6 +141,14 @@ flowchart LR
 ## 🛠️ Стек
 
 <div align="center">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="45" title="Python">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45" title="JavaScript">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="45" title="TypeScript">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="45" title="SQLite">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="45" title="Git">
+
+<br><br>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=flat-square&logo=playwright&logoColor=white)
