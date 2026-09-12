@@ -23,7 +23,7 @@
 
 ---
 
-## 🎯 Сложности
+##
 На первый взгляд кажется: «Ну, парсинг, фильтр — что тут сложного?»
 
 На самом деле:
@@ -98,11 +98,11 @@ flowchart LR
     </td>
     <td align="center">
       <img src="screenshots/channel1.png" width="250"><br>
-      <b></b>
+      <b>Вакансии QA</b>
     </td>
     <td align="center">
       <img src="screenshots/channel2.png" width="250"><br>
-      <b></b>
+      <b>Вакансии QA</b>
     </td>
   </tr>
 </table>
