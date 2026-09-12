@@ -1,4 +1,4 @@
-﻿# 🤖 IT Job Aggregator Bot
+# 🤖 IT Job Aggregator Bot
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python)
 ![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=for-the-badge&logo=playwright)
@@ -15,14 +15,17 @@
 Бот собирает IT-вакансии из 30+ источников, фильтрует по стеку и отправляет только релевантные в Telegram.
 
 **Что умеет:**
-- 🧠 Сбор вакансий из множества источников
-- 🧠 Умная фильтрация (Playwright, TypeScript, Python, QA)
-- 🧠 Сохранение в SQLite
-- 🧠 Отправка в Telegram канал
-- 🧠 Защита от дубликатов
-- 🧠 Лимиты и паузы
+- ✅ Сбор вакансий из множества источников
+- ✅ Умная фильтрация (Playwright, TypeScript, Python, QA)
+- ✅ Сохранение в SQLite
+- ✅ Отправка в Telegram канал
+- ✅ Защита от дубликатов
+- ✅ Лимиты и паузы
 
 ---
+
+## 🏗️ Архитектура
+
 ```mermaid
 flowchart LR
     subgraph INPUT["📥 Сбор"]
@@ -51,11 +54,13 @@ flowchart LR
     P1 --> P2 --> P3
     P3 --> DB --> CH
 ```
-```
+
+---
 
 ## 📸 Демонстрация
 
 ### Терминал
+
 <table>
   <tr>
     <td align="center">
@@ -70,6 +75,7 @@ flowchart LR
 </table>
 
 ### Telegram-канал
+
 <table>
   <tr>
     <td align="center">
@@ -86,6 +92,7 @@ flowchart LR
     </td>
   </tr>
 </table>
+
 ---
 
 ## 📊 Результаты
