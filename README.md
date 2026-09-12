@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="screenshots/botvacancy.png" width="150" alt="Logo">
+<img src="screenshots/botvacancy.png.png" width="150" alt="Logo">
 
 # 🤖 IT Job Aggregator Bot
 
