@@ -65,7 +65,7 @@ flowchart LR
   <tr>
     <td align="center">
       <img src="screenshots/terminal.png" width="400"><br>
-      <b>Запуск бота</b>
+      <b>Автотесты</b>
     </td>
     <td align="center">
       <img src="screenshots/terminal1.png" width="400"><br>
@@ -100,7 +100,7 @@ flowchart LR
 | Метрика | Значение |
 |---------|----------|
 | Источников | 30+ |
-| Вакансий в день | 50 |
+| Отфильтрованных вакансий в день | 50 |
 | Релевантность | 95% |
 | Ручной работы | 0 |
 
