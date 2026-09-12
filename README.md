@@ -2,7 +2,7 @@
 
 <img src="screenshots/botvacancy.png.png" width="150" alt="Logo">
 
-# 🤖 IT Job Aggregator Bot
+# IT Job Aggregator Bot
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&color=45BA4B&center=true&vCenter=true&lines=Автоматический+сбор+вакансий;Умная+фильтрация;Работает+24%2F7">
 
