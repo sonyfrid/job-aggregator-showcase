@@ -56,11 +56,8 @@ flowchart TD
 ```
 ## 🏗️ Архитектура
 
-```mermaid
-flowchart LR
-    A[Источники] --> B[Фильтры]
-    B --> C[SQLite]
-    C --> D[Telegram]
+```
+Сбор → Фильтрация → БД → Telegram
 ```
 
 ---
