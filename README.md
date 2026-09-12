@@ -39,9 +39,13 @@ flowchart LR
 
 ### Терминал
 ![Terminal](screenshots/terminal.png)
+![Terminal](screenshots/terminal1.png)
 
 ### Telegram-канал
 ![Channel](screenshots/channel.png)
+![Channel](screenshots/channel1.png)
+![Channel](screenshots/channel2.png)
+
 
 ---
 
