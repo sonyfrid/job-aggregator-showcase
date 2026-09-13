@@ -96,7 +96,7 @@ flowchart LR
       <b>🛡️ На страже автотесты</b>
     </td>
     <td align="center">
-      <img src="screenshots/terminal1.png" width="400"><br>
+      <img src="screenshots/terminal4.png" width="400"><br>
       <b>🚀 Запуск бота с инфо</b>
     </td>
   </tr>
