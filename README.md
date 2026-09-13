@@ -108,7 +108,7 @@ flowchart LR
   <tr>
     <td align="center">
       <img src="screenshots/channel.png" width="250"><br>
-      <b>💼 Вакансии QA</b>
+      <b>💼 Вакансии</b>
     </td>
     <td align="center">
       <img src="screenshots/channel1.png" width="250"><br>
