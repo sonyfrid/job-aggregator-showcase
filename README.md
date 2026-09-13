@@ -170,7 +170,6 @@ flowchart LR
 <div align="center">
 
 **Нужен похожий бот для ваших задач?**
-
 Напишите мне - обсудим любые идеи:
 
 ### [https://t.me/fridmo_sony](https://t.me/fridmo_sony)
