@@ -165,17 +165,17 @@ flowchart LR
 
 ---
 
-## 📬 Связаться со мной
-
 <div align="center">
 
-**Нужен похожий бот для ваших задач?**
+## **Нужен похожий бот для ваших задач?**
+
 Напишите мне - обсудим любые идеи:
 
-### [https://t.me/fridmo_sony](https://t.me/fridmo_sony)
+### <a href="https://t.me/fridmo_sony" style="color: #FF1FA0;">https://t.me/fridmo_sony</a>
 
 </div>
 
+---
 ---
 ## ⚠️ Исходный код
 
