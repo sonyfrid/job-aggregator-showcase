@@ -170,24 +170,7 @@ flowchart LR
 ## **Нужен похожий бот для ваших задач?**
 
 Напишите мне - обсудим любые идеи:
-
-### <a href="https://t.me/fridmo_sony" style="color: #FF1FA0;">https://t.me/fridmo_sony</a>
-
 </div>
-
----
----
-## ⚠️ Исходный код
-
-Исходный код находится в **приватном репозитории**.
-
-Демонстрация доступна по запросу.
-
-**Контакт:** [Telegram](https://t.me/fridmo_sony)
-
----
-
-## 👨‍💻 Автор
 
 <div align="center">
 
@@ -199,7 +182,13 @@ flowchart LR
 </div>
 
 ---
+## ⚠️ Исходный код
 
+Исходный код находится в **приватном репозитории**.
+
+Демонстрация доступна по запросу.
+
+---
 <div align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
   <br>
