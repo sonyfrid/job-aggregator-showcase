@@ -167,12 +167,11 @@ flowchart LR
 
 <div align="center">
 
-## **Нужен похожий бот для ваших задач?**
+## Нужен похожий бот для ваших задач?
 
-Напишите мне - обсудим любые идеи:
-</div>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=500&color=FF1FA0&center=true&vCenter=true&width=500&lines=Напишите+мне+-+обсудим+любые+идеи!">
 
-<div align="center">
+<br><br>
 
 **Sony Fridmo**
 
@@ -182,6 +181,7 @@ flowchart LR
 </div>
 
 ---
+
 ## ⚠️ Исходный код
 
 Исходный код находится в **приватном репозитории**.
@@ -189,6 +189,7 @@ flowchart LR
 Демонстрация доступна по запросу.
 
 ---
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
   <br>
