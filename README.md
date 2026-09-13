@@ -169,7 +169,7 @@ flowchart LR
 **Нужен похожий бот для ваших задач?**
 
 Напишите мне - обсудим любые идеи:
-**Контакт:** [Telegram](https://t.me/fridmo_sony)
+### https://t.me/fridmo_sony
 </div>
 
 ---
