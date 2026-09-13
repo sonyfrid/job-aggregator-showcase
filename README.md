@@ -171,6 +171,7 @@ flowchart LR
 Напишите мне - обсудим любые идеи:
 **Контакт:** [Telegram](https://t.me/fridmo_sony)
 </div>
+
 ---
 ## ⚠️ Исходный код
 
