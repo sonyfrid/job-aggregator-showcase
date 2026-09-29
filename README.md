@@ -43,7 +43,6 @@
   <tr>
     <td align="center"><img src="screenshots/app-search-light.png" width="250"><br><b>☀️ Светлая тема</b></td>
     <td align="center"><img src="screenshots/app-about.png" width="250"><br><b>✍️ О себе и настройки</b></td>
-    <td align="center"><img src="screenshots/hunterkitty-full.png" width="190"><br><b>🐱 HunterKitty</b></td>
   </tr>
 </table>
 
