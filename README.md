@@ -1,15 +1,15 @@
 <div align="center">
 
-<img src="screenshots/botvacancy.png.png" width="150" alt="Logo">
+<img src="screenshots/logo.png" width="170" alt="HunterKitty Work">
 
-# IT Job Aggregator Bot
+# HunterKitty Work
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&color=45BA4B&center=true&vCenter=true&lines=Автоматический+сбор+вакансий;Умная+фильтрация;Работает+24%2F7">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&color=00FF32&center=true&vCenter=true&lines=Откликайся+первым+на+вакансии;Telegram-бот+%2B+Mini+App;16+сайтов+%2B+169+Telegram-каналов">
 
-![Python](https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python)
-![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=for-the-badge&logo=playwright)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)
+![aiogram](https://img.shields.io/badge/aiogram-3-2CA5E0?style=for-the-badge&logo=telegram)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Tests](https://img.shields.io/badge/tests-292_passed-brightgreen?style=for-the-badge&logo=pytest)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 
 </div>
@@ -18,74 +18,34 @@
 
 ---
 
-## 💡 Зачем нужен этот бот
+## 💡 Что это
 
-Поиск работы в IT — это рутина: десятки каналов, мусор, пропущенные вакансии. Бот найдет и автоматизиурет всё за вас:
+На вакансию откликаются в первые часы — кто раньше, у того шанс выше. HunterKitty Work собирает свежие вакансии со всех площадок в одну ленту и присылает новые сразу, как их опубликовали.
 
-- **Читает 30+ источников** — Telegram, job-борды
-- **Фильтрует по стеку**
-- **Убирает мусор** — неактуальную информацию
-- **Присылает только релевантное** — в приватный индивидуальный Telegram-канал
-
-**Результат:** 2-3 часа рутины → 5 минут просмотра.
-
----
-
-## 🎯 Специфика
-
-<details>
-<summary>🔍 Нажми, чтобы раскрыть</summary>
-
-На первый взгляд кажется: «Ну, парсинг, фильтр — что тут сложного?»
-
-На самом деле:
-
-- **Источники разные** — Telegram-каналы, сайты, API. У каждого своя структура.
-- **Данные грязные** — вакансии дублируются, содержат мусор, рекламу, подборки.
-- **Фильтры неочевидны** — у каждых вакансий своя структура. Например, «удалёнка» пишется 10 способами.
-- **Лимиты и защита** — источники не любят автоматизацию. Нужны паузы, ротация.
-- **Надёжность** — бот работает 24/7, не падает, не шлёт дубли, не теряет данные.
-
-**Это компактный продукт с архитектурой, базой данных, логированием и тестами.**
-
-</details>
+- **16 сайтов и 169 Telegram-каналов** — HeadHunter, SuperJob, Habr Career, GeekJob, Talanto и другие; каналы читаются в реальном времени
+- **3000+ новых вакансий в день** — дубли, реклама, резюме и «подработка-лохотрон» отсеиваются
+- **Точный подбор** — профессия, ключевые слова, слова-исключения, город, формат работы; можно искать и без профессии — по городу или ключевым словам
+- **✉️ Письмо работодателю** — ИИ составляет сопроводительное под конкретную вакансию по твоему «О себе» или загруженному резюме
+- **Telegram-бот и Mini App** — лента, сохранённые, уведомления «сразу / раз в час / раз в день»
 
 ---
 
-## 🏗️ Архитектура
+## 📸 Mini App
 
-```mermaid
-flowchart LR
-    subgraph INPUT["📥 Сбор"]
-        direction TB
-        TG[Telegram-каналы]
-        JB[Job-борды]
-    end
-    
-    subgraph PROCESS["⚙️ Обработка"]
-        direction TB
-        P1[Парсер]
-        P2[Фильтр]
-        P3[Дедупликация]
-    end
-    
-    subgraph DATA["💾 Данные"]
-        DB[(SQLite)]
-    end
-    
-    subgraph OUTPUT["📤 Результат"]
-        CH[Telegram-канал]
-    end
-    
-    TG --> P1
-    JB --> P1
-    P1 --> P2 --> P3
-    P3 --> DB --> CH
-```
+Терминал в стиле 2000-х: две темы, три размера текста.
 
----
-
-## 📸 Демонстрация
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/app-search-dark.png" width="250"><br><b>🔎 Поиск</b></td>
+    <td align="center"><img src="screenshots/app-feed.png" width="250"><br><b>📜 Лента</b></td>
+    <td align="center"><img src="screenshots/app-vacancy.png" width="250"><br><b>💼 Вакансия и письмо</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/app-search-light.png" width="250"><br><b>☀️ Светлая тема</b></td>
+    <td align="center"><img src="screenshots/app-about.png" width="250"><br><b>✍️ О себе и настройки</b></td>
+    <td align="center"><img src="screenshots/hunterkitty-full.png" width="190"><br><b>🐱 HunterKitty</b></td>
+  </tr>
+</table>
 
 ### 🖥️ Терминал
 
@@ -102,37 +62,74 @@ flowchart LR
   </tr>
 </table>
 
-### 📱 Telegram-канал
+---
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="screenshots/channel.png" width="250"><br>
-      <b>💼 Вакансии</b>
-    </td>
-    <td align="center">
-      <img src="screenshots/channel1.png" width="250"><br>
-      <b>🎯 Вакансии</b>
-    </td>
-    <td align="center">
-      <img src="screenshots/channel2.png" width="250"><br>
-      <b>📤 Вакансии</b>
-    </td>
-  </tr>
-</table>
+## 🎯 Что внутри
+
+<details>
+<summary>🔍 Нажми, чтобы раскрыть</summary>
+
+- **Сбор** — адаптеры сайтов (HTML, JSON, sitemap, RSS) с паузами и защитой от капч; Telegram — через userbot, в реальном времени и с постепенной подпиской на новые каналы.
+- **Нормализация** — зарплата, город, формат работы («удалёнка» пишется десятком способов; «мама работает удалённо» — не удалёнка), опыт, дедупликация одной вакансии с разных площадок.
+- **Подбор** — синонимы профессий и «родственные» роли (реклама ⊂ маркетинг), конфликт ролей и стеков (Python ≠ Java, QA ≠ разработчик), жёсткие фильтры и ранжирование, «умные» ключевые слова («без опыта», «удалённо», «подработка» понимают и поля вакансии). Качество проверяется прогоном 48 профессий: в топ-30 выдачи — только по теме.
+- **Уведомления** — сразу, пачкой или утренней подборкой; ничего не теряется, пока компьютер спит или падает сеть.
+- **Mini App** — aiohttp + ванильный JS внутри процесса бота, подпись запросов Telegram `initData`, туннель Cloudflare с автоперезапуском.
+- **Подписка** — пробный период, бесплатный режим с лимитами и PRO с оплатой через ЮKassa.
+- **Надёжность** — воркер отдельно от бота (кнопки не подвисают), расчёт подбора в отдельных процессах, ночные бэкапы базы, 292 автотеста.
+
+</details>
 
 ---
 
-## 📊 Результаты
+## 🏗️ Архитектура
+
+```mermaid
+flowchart LR
+    subgraph INPUT["📥 Сбор"]
+        direction TB
+        SITES[16 сайтов]
+        TG[169 Telegram-каналов]
+    end
+
+    subgraph PROCESS["⚙️ Обработка"]
+        direction TB
+        N[Нормализация]
+        D[Дедупликация]
+        M[Подбор под человека]
+    end
+
+    subgraph DATA["💾 Данные"]
+        DB[(PostgreSQL)]
+    end
+
+    subgraph OUTPUT["📤 Результат"]
+        direction TB
+        BOT[Telegram-бот]
+        APP[Mini App]
+        AI[✉️ ИИ-письмо]
+    end
+
+    SITES --> N
+    TG --> N
+    N --> D --> DB --> M
+    M --> BOT
+    M --> APP
+    APP --> AI
+```
+
+---
+
+## 📊 Цифры
 
 <div align="center">
 
 | 📈 Метрика | 🎯 Значение |
 |:----------:|:-----------:|
-| **Источников** | 30+ |
-| **Вакансий в день** | 50 |
-| **Релевантность** | 95% |
-| **Ручной работы** | 0 |
+| **Сайтов** | 16 |
+| **Telegram-каналов** | 169 |
+| **Новых вакансий в день** | 3000+ |
+| **Проверено профессий** | 48 — IT, офис, медицина, общепит, склад |
+| **Автотестов** | 292 |
 
 </div>
 
@@ -144,16 +141,16 @@ flowchart LR
 
 <br>
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="80" title="Python">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/playwright/playwright-original.svg" width="80" title="Playwright">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="80" title="SQLite">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytest/pytest-original.svg" width="80" title="pytest">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="80" title="Git">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="80" title="GitHub">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="70" title="Python">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="70" title="PostgreSQL">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlalchemy/sqlalchemy-original.svg" width="70" title="SQLAlchemy">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="70" title="JavaScript">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytest/pytest-original.svg" width="70" title="pytest">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="70" title="Git">
 
 <br><br>
 
-**Python · Playwright · SQLite · asyncio · pytest**
+**Python · aiogram · Telethon · aiohttp · SQLAlchemy · PostgreSQL · Alembic · APScheduler · pytest**
 
 </div>
 
@@ -161,12 +158,15 @@ flowchart LR
 
 ## 🗺️ Roadmap
 
-- [x] Сбор из Telegram
-- [x] Сбор с job-бордов
-- [x] Умная фильтрация
-- [x] Сохранение в SQLite
-- [x] Защита от дубликатов
-- [x] Автотесты
+- [x] Сбор с сайтов и из Telegram-каналов
+- [x] Подбор: синонимы профессий, фильтры, ключевые слова, исключения
+- [x] Защита от дублей, рекламы и мошеннических «вакансий»
+- [x] Уведомления о новых вакансиях
+- [x] Mini App: тёмная и светлая темы
+- [x] ✉️ Письмо работодателю через ИИ
+- [x] Подписка PRO и оплата
+- [ ] Процент совпадения в ленте
+- [ ] Переезд на сервер
 
 ---
 
