@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="screenshots/buff_cat_green2.png" width="100" alt="HunterKitty Work">
+<img src="screenshots/buff_cat_green3.png" width="100" alt="HunterKitty Work">
 
 # HunterKitty Work
 
