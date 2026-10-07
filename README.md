@@ -3,7 +3,7 @@
 <img src="screenshots/buff_cat_green3.png" width="100" alt="HunterKitty Work">
 
 # HunterKitty Work
-
+## https://t.me/Jobradar_kittybot
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&color=00FF32&center=true&vCenter=true&lines=Откликайся+первым+на+вакансии;Telegram-бот+%2B+Mini+App;16+сайтов+%2B+169+Telegram-каналов">
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)
