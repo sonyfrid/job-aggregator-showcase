@@ -46,7 +46,6 @@
   <tr>
     <td align="center"><img src="screenshots/greeting.png" width="250"><br><b>🐾 Приветствие</b></td>
     <td align="center"><img src="screenshots/start.png" width="250"><br><b>🔎 Старт: кем и где</b></td>
-    <td align="center"><img src="screenshots/filters.png" width="250"><br><b>⚙️ Фильтры</b></td>
   </tr>
 </table>
 
@@ -54,13 +53,13 @@
 
 <table>
   <tr>
-    <td align="center"><img src="screenshots/app-search-dark.png" width="250"><br><b>🔎 Поиск</b></td>
+    <td align="center"><img src="screenshots/app-search-dark.png" width="250"><br><b>⚙️ Фильтры</b></td>
     <td align="center"><img src="screenshots/app-feed.png" width="250"><br><b>📜 Лента</b></td>
     <td align="center"><img src="screenshots/app-vacancy.png" width="250"><br><b>💼 Вакансия и письмо</b></td>
   </tr>
   <tr>
     <td align="center"><img src="screenshots/app-search-light.png" width="250"><br><b>☀️ Светлая тема</b></td>
-    <td align="center"><img src="screenshots/app-about.png" width="250"><br><b>✍️ О себе и настройки</b></td>
+    <td align="center"><img src="screenshots/app-about.png" width="250"><br><b>🔔 Настройки и уведомления</b></td>
   </tr>
 </table>
 
