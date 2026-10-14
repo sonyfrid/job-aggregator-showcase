@@ -44,7 +44,7 @@
 
 <table>
   <tr>
-    <td align="center"><img src="screenshots/greeting.png" width="250"><br><b>🐾 Приветствие</b></td>
+    <td align="center"><img src="screenshots/greeting.png" width="250"><br><b>🐾 Обложка бота</b></td>
     <td align="center"><img src="screenshots/start.png" width="250"><br><b>🔎 Старт: кем и где</b></td>
   </tr>
 </table>
