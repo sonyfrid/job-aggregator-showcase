@@ -4,12 +4,12 @@
 
 # HunterKitty Work
 ## https://t.me/Jobradar_kittybot
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&color=00FF32&center=true&vCenter=true&lines=Откликайся+первым+на+вакансии;Telegram-бот+%2B+Mini+App;16+сайтов+%2B+169+Telegram-каналов">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&color=00FF32&center=true&vCenter=true&lines=Откликайся+первым+на+вакансии;Telegram-бот+%2B+Mini+App;30%2B+сайтов+%2B+~200+Telegram-каналов">
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)
 ![aiogram](https://img.shields.io/badge/aiogram-3-2CA5E0?style=for-the-badge&logo=telegram)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Tests](https://img.shields.io/badge/tests-292_passed-brightgreen?style=for-the-badge&logo=pytest)
+![Tests](https://img.shields.io/badge/tests-544_passed-brightgreen?style=for-the-badge&logo=pytest)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 
 </div>
@@ -22,8 +22,8 @@
 
 На вакансию откликаются в первые часы — кто раньше, у того шанс выше. HunterKitty Work собирает свежие вакансии со всех площадок в одну ленту и присылает новые сразу, как их опубликовали.
 
-- **16 сайтов и 169 Telegram-каналов** сайты и каналы читаются в реальном времени
-- **3000+ новых вакансий в день** — дубли, реклама, резюме и мошенники отсеиваются
+- **30+ сайтов и ~200 Telegram-каналов** — читаются в реальном времени
+- **10 000+ новых вакансий в день** — дубли, реклама, резюме и мошенники отсеиваются
 - **Точный подбор** — профессия, ключевые слова, слова-исключения, город, формат работы
 - **✉️ Письмо работодателю** — ИИ составляет сопроводительное под конкретную вакансию
 - **Telegram-бот и Mini App** — лента, сохранённые, уведомления «сразу / раз в час / раз в день»
@@ -33,6 +33,18 @@
 ## 📸 Mini App
 
 Терминал в стиле 2000-х: две темы, три размера текста.
+
+### 🆕 Первый вход
+
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/greeting.png" width="250"><br><b>🐾 Приветствие</b></td>
+    <td align="center"><img src="screenshots/start.png" width="250"><br><b>🔎 Старт: кем и где</b></td>
+    <td align="center"><img src="screenshots/filters.png" width="250"><br><b>⚙️ Фильтры</b></td>
+  </tr>
+</table>
+
+### 📜 Лента и настройки
 
 <table>
   <tr>
@@ -73,7 +85,7 @@
 - **Уведомления** — сразу, пачкой или утренней подборкой; ничего не теряется.
 - **Mini App** — aiohttp + PYTHON и JS внутри процесса бота.
 - **Подписка** — пробный период, бесплатный режим с лимитами и PRO с оплатой через ЮKassa.
-- **Надёжность** — воркер отдельно от бота (кнопки не подвисают), расчёт подбора в отдельных процессах, ночные бэкапы базы, 292 автотеста.
+- **Надёжность** — воркер отдельно от бота (кнопки не подвисают), расчёт подбора в отдельных процессах, ночные бэкапы базы, 544 автотеста.
 
 </details>
 
@@ -85,8 +97,8 @@
 flowchart LR
     subgraph INPUT["📥 Сбор"]
         direction TB
-        SITES[16 сайтов]
-        TG[169 Telegram-каналов]
+        SITES[30+ сайтов]
+        TG[~200 Telegram-каналов]
     end
 
     subgraph PROCESS["⚙️ Обработка"]
@@ -123,10 +135,10 @@ flowchart LR
 
 | 📈 Метрика | 🎯 Значение |
 |:----------:|:-----------:|
-| **Сайтов** | 16 |
-| **Telegram-каналов** | 169 |
-| **Новых вакансий в день** | 3000+ |
-| **Автотестов** | 292 |
+| **Сайтов** | 30+ |
+| **Telegram-каналов** | ~200 |
+| **Новых вакансий в день** | 10 000+ |
+| **Автотестов** | 544 |
 
 </div>
 
@@ -163,6 +175,7 @@ flowchart LR
 - [x] ✉️ Письмо работодателю через ИИ
 - [x] Подписка PRO и оплата
 - [x] Процент совпадения в ленте
+- [x] Быстрый старт: два поля «кем» и «где» — и сразу лента
 
 ---
 
